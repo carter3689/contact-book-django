@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "contact-book"
+version = "0.1.0"
+description = "DjagoRestframework contact project"
+authors = ["joel <blerdunit@blerdgrid.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+djangorestframework = "^3.14.0"
+Markdown = "^3.5.2"
+django-filter = "^23.5"
+
+[tool.poetry.group.dev.dependencies]
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
